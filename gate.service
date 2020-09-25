@@ -1,0 +1,11 @@
+[Unit]
+Description=Gate service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/gate
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

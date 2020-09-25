@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgate_library.a  CMakeFiles/gate_library.dir/Gate.cc.o CMakeFiles/gate_library.dir/StringCommandAdapter.cc.o
+/usr/bin/ranlib libgate_library.a

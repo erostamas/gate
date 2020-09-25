@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erostamas/repos/gate/src/Gate.h
+erostamas/CommandProcessor.h
+/home/erostamas/repos/gate/src/erostamas/CommandProcessor.h
+
+/home/erostamas/repos/gate/src/main.cc
+iostream
+-
+thread
+-
+cstdlib
+-
+csignal
+-
+erostamas/Logging.h
+/home/erostamas/repos/gate/src/erostamas/Logging.h
+Gate.h
+/home/erostamas/repos/gate/src/Gate.h
+
